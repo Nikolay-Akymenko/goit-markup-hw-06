@@ -530,7 +530,7 @@ img {
 
 .join-list {
     list-style: none;
-    
+    margin-right: 93px;
     
     display: flex;
     align-items: center;
@@ -548,6 +548,66 @@ fill:#ffffff;
 .footer .socials-link:hover,
 .footer .socials-link:focus {
     background-color: #2196F3;
+}
+/* Forma footer */
+
+.subscribe-form {
+
+}
+
+.form-footer {
+
+}
+.form-mail {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;    
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-form {
+    position: absolute;
+    margin-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+    
+    letter-spacing: 0.06em;
+    cursor: pointer;
+
+
+    border-radius: 4px;
+    border: transparent;
+    padding: 10px 32px;
+    min-width: 200px;
+    min-height: 50px;
+     
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-form:hover {
+    background-color: #188CE8;
+}
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-icon {
+    margin-left: 10px;
 }
 
 /* Портфолио */
@@ -627,10 +687,6 @@ fill:#ffffff;
     position: relative;
     overflow: hidden;
 }
-/* .gallery-link:hover .text-overlay ,
-.gallery-link:focus .text-overlay {
-    opacity: 1;
-} */
 
 .gallery-link:hover .text-overlay,
 .gallery-link:focus .text-overlay {
