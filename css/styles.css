@@ -512,12 +512,24 @@ img {
    color: var(--accent-color); 
 }
 
+.footer-title {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
 /* Join */
 
 .footer-join {
 
 }
-.join-title {
+/* .join-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -526,7 +538,7 @@ img {
     margin-bottom: 20px;
 
     color: #FFFFFF;
-}
+} */
 
 .join-list {
     list-style: none;
@@ -537,7 +549,8 @@ img {
     justify-content:normal;
 }
 .join-item:not(:last-child) {
-    margin-right: 10px;      
+    margin-right: 10px;
+          
 }
 .footer .socials-icon {
 fill:#ffffff;
@@ -564,7 +577,7 @@ fill:#ffffff;
     padding: 15px 16px;
 
     color: rgba(255, 255, 255, 0.6);
-    background-color: #2F303A;    
+    background-color: transparent;    
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -791,6 +804,7 @@ fill:#ffffff;
     transition: transform 250ms ease-in-out 200ms, opacity 250ms ease-in-out 200ms  ; 
      
 }
+/* Розметка формы */
 
 .modal-btn {
     position: absolute;
@@ -809,6 +823,19 @@ fill:#ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+}
+
+.form-modal {
+    padding: 40px;
+}
+.form-modal-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--title-text-color);
 }
 
 
